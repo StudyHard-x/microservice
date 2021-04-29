@@ -1,0 +1,49 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 118.178.91.236:8848
+#        ip: 118.178.91.236
+    gateway:
+      routes:
+        - id: users_route
+          uri: lb://leave-users
+          predicates:
+            - Path=/api/users/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        - id: calendar
+          uri: lb://calendar
+          predicates:
+            - Path=/api/calendar/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        - id: other
+          uri: lb://other-service
+          predicates:
+            - Path=/api/otherservice/**
+          filters:
+            - RewritePath=/api/otherservice/(?<segment>.*), /$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /renren-fast/$\{segment}
+
+
+#        - id: test01
+#          uri: https://www.baidu.com
+#          predicates:
+#            - Query=url,baidu
+#        - id: test02
+#          uri: https://www.qq.com
+#          predicates:
+#            - Query=url,qq
+  application:
+    name: gateway
+server:
+  port: 5000
