@@ -5,6 +5,7 @@ import java.util.Map;
 
 import com.microstudy.users.utils.PageUtils;
 import com.microstudy.users.utils.R;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.microstudy.users.entity.UserEntity;
 import com.microstudy.users.service.UserService;
-
+import org.springframework.web.client.RestTemplate;
 
 
 
@@ -85,6 +86,26 @@ public class UserController {
 		userService.removeByIds(Arrays.asList(userIds));
 
         return R.ok();
+    }
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    @RequestMapping("/1111")
+    public String getInfo(){
+        return restTemplate.getForObject("http://other-service/getInfo", String.class);
+    }
+
+    @RequestMapping("/123")
+    public void hello(){
+        System.out.println("hello");
+    }
+
+    @RequestMapping("/testRibbon")
+    public String getInfo2(){
+        String test = restTemplate.getForObject("http://other-service/testWeighted", String.class);
+        System.out.println(test);
+        return test;
     }
 
 }

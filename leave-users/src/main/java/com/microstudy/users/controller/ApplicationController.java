@@ -85,9 +85,7 @@ public class ApplicationController {
     private void verifyApplication(ApplicationEntity app, Integer date){
         Date sDate = app.getStartDate();
         for (int i = 0; i < date; i ++){
-
         }
-
     }
 
     /**
@@ -206,6 +204,8 @@ public class ApplicationController {
     public R listAllCalendar() throws ParseException {
 
         List<OwncalendarEntity> test = new ArrayList<>();
-        return R.ok().put("youhuiquan", test);
+        return R.ok().put("test", test);
     }
+
+
 }

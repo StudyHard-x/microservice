@@ -27,3 +27,6 @@ mybatis-plus:
 server:
   port: 13000
 
+#other-service:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

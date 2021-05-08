@@ -8,12 +8,15 @@
         <option value="$PROJECT_DIR$/leave-users/pom.xml" />
         <option value="$PROJECT_DIR$/other-service/pom.xml" />
         <option value="$PROJECT_DIR$/calendar/pom.xml" />
+        <option value="$PROJECT_DIR$/other-service1/pom.xml" />
+        <option value="$PROJECT_DIR$/ass/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/leave_user/pom.xml" />
         <option value="$PROJECT_DIR$/leave_users/pom.xml" />
+        <option value="$PROJECT_DIR$/other-serviceCopy/pom.xml" />
       </set>
     </option>
   </component>

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ass/ass.iml" filepath="$PROJECT_DIR$/ass/ass.iml" />
       <module fileurl="file://$PROJECT_DIR$/calendar/calendar.iml" filepath="$PROJECT_DIR$/calendar/calendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/leave-users/leave-users.iml" filepath="$PROJECT_DIR$/leave-users/leave-users.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice.iml" filepath="$PROJECT_DIR$/microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/other-service/other-service.iml" filepath="$PROJECT_DIR$/other-service/other-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other-service1/other-service1.iml" filepath="$PROJECT_DIR$/other-service1/other-service1.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
     </modules>
   </component>

@@ -8,9 +8,9 @@ spring:
     nacos:
       discovery:
         server-addr: 118.178.91.236:8848
-        weight: 0.25
+        weight: 0.75
 server:
-  port: 30000
+  port: 30001
 
 #management:
 #  endpoint:
