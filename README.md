@@ -41,5 +41,8 @@ Leava management system based on microservice architecture
 ## round-ribbon
 ![image](https://user-images.githubusercontent.com/68764306/132212786-5fb0a1bb-4ee5-4577-9e0f-57a52919aa9f.png)
 
+## Flow Control 
+![image](https://user-images.githubusercontent.com/68764306/132212990-87ff0f27-9604-4fd4-b3ac-2d65c1813320.png)
+
 ## Load Testing with jmeter
 ![image](https://user-images.githubusercontent.com/68764306/132212812-05ceaf44-0c1d-410d-b791-5ec006a0a569.png)
