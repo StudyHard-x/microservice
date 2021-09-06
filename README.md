@@ -1,20 +1,10 @@
 # Mywork01
 
-#### 介绍
-基于微服务架构的请假系统
+#### Introduction
+Leava management system based on microservice architecture
 
-#### 软件架构
-软件架构说明
+## User login
+![image](https://user-images.githubusercontent.com/68764306/132211988-8e7c3505-6b36-4994-81b3-9f09f3487d3f.png)
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## List of application
+![image](https://user-images.githubusercontent.com/68764306/132212053-b81a86d5-3ead-4ab2-9e22-46f517f1c946.png)
